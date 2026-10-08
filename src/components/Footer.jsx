@@ -10,18 +10,12 @@ export default function Footer() {
           
           {/* Brand Info (5 Cols) */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
-                P
-              </div>
-              <div>
-                <span className="text-xl font-extrabold tracking-tight text-white">
-                  Prasodi
-                </span>
-                <span className="block text-[10px] font-semibold uppercase tracking-wider text-blue-400">
-                  {siteConfig.companyName}
-                </span>
-              </div>
+            <div className="inline-block bg-white p-2 rounded-xl shadow-sm">
+              <img
+                src="/logo-prasodi.jpeg"
+                alt="Prana Solusi Digital"
+                className="h-8 sm:h-9 w-auto object-contain"
+              />
             </div>
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">

@@ -190,12 +190,14 @@ export default function Hero({ onStartOrder }) {
             </div>
 
             <div className="hidden sm:flex absolute -top-4 -right-4 bg-white p-3 rounded-2xl shadow-xl border border-slate-100 items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600">
-                <CheckCircle2 className="w-4 h-4" />
-              </div>
+              <img
+                src="/logo-icon-square.jpeg"
+                alt="Prasodi Partner"
+                className="w-8 h-8 rounded-lg object-contain border border-slate-100"
+              />
               <div className="text-left">
-                <p className="text-xs font-bold text-slate-900">Google Terverifikasi</p>
-                <p className="text-[10px] text-emerald-600 font-semibold">Toko Mudah Dicari</p>
+                <p className="text-xs font-bold text-slate-900">Partner Resmi Prasodi</p>
+                <p className="text-[10px] text-emerald-600 font-semibold">Website Terverifikasi</p>
               </div>
             </div>
 
